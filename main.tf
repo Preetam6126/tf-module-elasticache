@@ -23,3 +23,4 @@ resource "aws_elasticache_subnet_group" "main" {
     { Name  = "${var.env}-subnet-group" }
    )
 }
+
